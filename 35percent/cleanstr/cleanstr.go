@@ -13,7 +13,6 @@ func main() {
 
 	str := os.Args[1]
 	result := ""
-
 	space := false
 	started := false
 
@@ -33,6 +32,5 @@ func main() {
 			started = true
 		}
 	}
-
 	fmt.Println(result)
 }
